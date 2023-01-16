@@ -19,6 +19,7 @@ window.addEventListener("load", () => {
    
       .then(data => {
         // Set DOM elements from the API
+        console.log(data)
         temperatureDegree.textContent = data.main.temp;
         specificLocation.textContent = data.name;
         temperatureDescription.textContent = data.weather[0].description;
