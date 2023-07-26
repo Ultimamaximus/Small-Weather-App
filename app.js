@@ -10,7 +10,7 @@ window.addEventListener("load", () => {
       long = position.coords.longitude;
       lat = position.coords.latitude;
       
-      const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=077ae6225085fea7dfd3932f99d48fbc&units=imperial `
+      const api = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&appid=insert your key here&units=imperial `
    
       fetch(api)
       .then(response => {
