@@ -17,7 +17,7 @@ body {
 
 .location,
 .temparature {
-  height: 30vh;
+  height: 15vh;
   width: 30%;
   display: flex;
   justify-content: space-around;
